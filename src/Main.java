@@ -8,12 +8,12 @@ public class Main {
         int creditTerm2 = 2;
         int creditTerm3 = 3;
 
-        int creditPayment = service.calculate(creditTerm, amount);
-        int creditPayment2 = service.calculate(creditTerm2, amount);
-        int creditPayment3 = service.calculate(creditTerm3, amount);
+        double creditPayment = service.calculate(creditTerm, amount);
+        double creditPayment2 = service.calculate(creditTerm2, amount);
+        double creditPayment3 = service.calculate(creditTerm3, amount);
 
-        System.out.println(creditPayment);
-        System.out.println(creditPayment2);
-        System.out.println(creditPayment3);
+        System.out.println((int) creditPayment);
+        System.out.println((int) creditPayment2);
+        System.out.println((int) creditPayment3);
     }
 }
